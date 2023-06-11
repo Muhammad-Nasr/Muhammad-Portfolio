@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./logo.png" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Muhammad Nasr</title>
+</head>
+
+<body>
+    <header id="home">
+        <!-- navbar -->
+        <nav id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <h2 class="logo">Muhammad Nasr</h1>
+
+                        <div class="switch" id="switch">
+                            <i class='fas fa-sun mode'></i>
+                            <i class='fas fa-moon mode'></i>
+                            <div class="ball"></div>
+                        </div>
+                        <button class="nav-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                </div>
+
+                <!-- links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">about</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="scroll-link">projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="scroll-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1>HEY THERE! 🙌</h1>
+                <h1 class="">I'm Muhammad Nasr!</h1>
+                <h3>A software developer with a passion for learning and creating.</h4><br>
+
+                    <a href="#projects" class="scroll-link btn btn-white">explore projects</a>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                aperiam!
+            </p>
+        </div>
+
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./picture.jpg" alt="" />
+            </article>
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">Back-End</button>
+                    <button class="tab-btn" data-id="vision">Front-End</button>
+                    <button class="tab-btn" data-id="goals">Languages</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>Back-End</h4>
+                        <p>
+                            Flask, Fast API, MySQL, DigitalOcean, Postgres SQL
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>Front-End</h4>
+                        <p>
+                            ReactJS, HTML, CSS, BootStrap
+                            sites that work on APIs.
+                            You can see the projects below 👇.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="https://myreads-bookstore.onrender.com/">
+                                    React MyRead Bookstore App
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube-app-k3nr.onrender.com/">
+                                    React YouTube Clone App
+                                </a>
+                            </li>
+                            <li><a href="https://flask-microblog-nhl7.onrender.com">
+                                    Flask MicroBlog App
+                                </a></li>
+                        </ul>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>Languages</h4>
+                        <p>
+                            Python, JavaScript
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="projects" class="section">
+        <div class="title">
+            <h2>My <span>projects</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="slider-container">
+            <a href="https://muhammadnasr.com/" target="_blank">
+                <div class="slide">
+                    <a>
+                        <img src="./portfolio-site.png" class="slide-img" alt="" />
+
+
+                        <h4> Reat- Muhammd Nasr Portfolio</h4>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://youtube-app-k3nr.onrender.com/" target="_blank">
+                        <img src="./youtubeclone.png" class="slide-img" alt="" />
+
+
+                        <h4> React-youbutb Clone App</h4>
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <a href="https://flask-microblog-nhl7.onrender.com" target="_blank">
+                        <img src="./microblog.png" class="slide-img" alt="" />
+
+
+                        <h4> Flask- microblog App</h4>
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <div>
+                        <a href="https://myreads-bookstore.onrender.com/" target="_blank">
+                            <img src="./bookstore.png" class="slide-img" alt="" />
+
+
+                            <h4>React MyRead Bookstore App</h4>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <div class="slide-btn">
+            <button type="button" class="prevBtn">
+                prev
+            </button>
+            <button type="button" class="nextBtn">
+                next
+            </button>
+        </div>
+
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section contact">
+
+        <div class="title">
+            <h2>Contact <span>Me</span></h2>
+            <div class="underline"></div>
+            <p>
+                Send a general message or details of a project you'd like me to be a part of and I'll get back to you as
+                soon as possible.<br />
+            <blockquote class="blockquote">
+                "Life is beautiful, not because of the things we see or do.
+                Life is beautiful because of the people we meet."
+            </blockquote>
+            <span>Simone Sink.</span>
+            </p>
+        </div>
+        <form method="Post" class="form">
+            <div class="half">
+                <div class="item">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" required />
+                </div>
+                <div class="item">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" required />
+                </div>
+            </div>
+            <div class="full">
+                <label for="message">MESSAGE</label>
+                <textarea name="" id="message" required></textarea>
+            </div>
+            <div class="action">
+                <input type="submit" value="Submit" id="action">
+            </div>
+            <div class="icons">
+                <div class="social">
+                    <a href="" class="fab fa-github"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+                <div class="address">
+                    <i class="fas fa-phone"><span>
+                            +20 01156288555
+                        </span></i>
+                    <i class="fas fa-envelope mail">
+                        <span>
+                            mnasreldin2@gmail.com
+                        </span>
+                    </i>
+                </div>
+
+            </div>
+        </form>
+
+    </section>
+    <!--- End Of Contact-->
+    <!-- footer -->
+    <!-- <footer class="setion">
+        <p>
+            copyright &copy; backroads travel tours company
+            <span id="date"></span>. all rights reserved
+        </p>
+    </footer> -->
+    <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
