@@ -561,12 +561,14 @@ About
 */
 .title {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 10px;
 }
 
 .title p {
     width: 80%;
     margin: 0 auto;
+    
+    
 }
 
 .about-img {
@@ -773,6 +775,14 @@ Slider
 #contact{
     height: 89vh;
     padding-bottom: 0;
+}
+
+#contact .title p{
+    margin-bottom: 5px;
+    color:black;
+}
+#contact .title .blockquote{
+    color: var(--clr-grey-5);
 }
 
 form {
